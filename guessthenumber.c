@@ -123,7 +123,7 @@ char *highmessage[] = {
             timetaken = difftime(finaltime, initialtime);
             randommessage = rand() % 5;
             printf("%s", winmessage[randommessage]);
-            printf("\n Your guess is correct on %f attempt", count);
+            printf("\n Your guess is correct on %f attempt", count + 1.00);
             printf("\n Time taken was %.2f", timetaken);
             win += 1;
             loss = 0 ;
@@ -190,7 +190,7 @@ char *highmessage[] = {
             timetaken = difftime(finaltime, initialtime);
             randommessage = rand() % 5;
             printf(" \n %s", winmessage[randommessage]);
-            printf("\n Your guess is correct on %d attempt", count);
+            printf("\n Your guess is correct on %d attempt", count + 1.00);
             printf("\n Time taken was %.2f", timetaken);
             win += 1;
             loss = 0;
@@ -256,7 +256,7 @@ char *highmessage[] = {
             timetaken = difftime(finaltime, initialtime);
             randommessage = rand() % 5;
             printf("%s",winmessage[randommessage]);
-            printf("\n Your guess is correct on %f attempt", count);
+            printf("\n Your guess is correct on %f attempt", count + 1.00);
             printf("Time taken was %.2f", timetaken);
             win += 1;
             loss = 0;
@@ -303,7 +303,7 @@ char *highmessage[] = {
             timetaken = difftime(finaltime, initialtime);          
             randommessage = rand() % 5;
             printf("%s", winmessage[randommessage]);
-            printf("\n Your guess is correct on %d attempt", count);
+            printf("\n Your guess is correct on %d attempt", count + 1.00);
             printf("\n Time taken was %.2f", timetaken);
             win += 1;
             loss = 0;
@@ -370,7 +370,7 @@ char *highmessage[] = {
             timetaken = difftime(finaltime, initialtime);
             randommessage = rand() % 5;
             printf(" \n %s", winmessage[randommessage]);
-            printf("\n Your guess is correct on %f attempt", count);
+            printf("\n Your guess is correct on %f attempt", count + 1.00);
             printf("\n Time taken was %.2f", timetaken);
             win += 1;
             loss = 0;
@@ -468,7 +468,7 @@ char *highmessage[] = {
             timetaken = difftime(finaltime, initialtime);
             randommessage = rand() % 5;
             printf("%s", winmessage[randommessage]);
-            printf("\n Your guess is correct on %f attempt", count);
+            printf("\n Your guess is correct on %f attempt", count + 1.00);
             printf("\n Time taken was %.2f", timetaken);
             win += 1;
             loss = 0 ;
